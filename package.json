@@ -1,0 +1,18 @@
+{
+  "name": "plex-rich-presence",
+  "module": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/app.ts",
+    "dev": "bun src/app.ts --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.1.4"
+  }
+}
