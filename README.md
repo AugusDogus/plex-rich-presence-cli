@@ -9,5 +9,10 @@ bun install
 To run:
 
 ```bash
-bun dev
+bun start
 ```
+
+## Todo
+
+- [ ] Fix typesafety
+- [ ] Add cli
