@@ -29,7 +29,7 @@ export const createDiscordPresence = async ({
     .setName(name)
     .setDetails("Streaming on Plex")
     .setAssetsLargeImage(
-      "https://cdn.discordapp.com/attachments/567067249354211357/1254514850336342116/plex-icon-2048x2048-kdgfrhh9.png?ex=6679c580&is=66787400&hm=18e5a3827a79ad0145519a6e48734330a30545b9aba596e82dbdc494e637e3ce&"
+      "https://cdn.discordapp.com/app-icons/842429216981254165/351ea06009d1f9b71c90474396e7329b.png?size=256"
     )
     .setAssetsLargeText(`Watching ${name} on Plex`);
   return presence;
